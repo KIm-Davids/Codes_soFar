@@ -14,7 +14,7 @@ import java.util.Scanner;
 	
 	if(num1 % i == 0){
 	
-	System.out.print(factor);
+	System.out.print(i);
 	System.out.print("  ");
 }
 	factor += i;

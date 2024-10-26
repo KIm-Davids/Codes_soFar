@@ -13,9 +13,7 @@ import java.security.SecureRandom;
 	SecureRandom randomNumbers = new SecureRandom();
 	int randomValue = randomNumbers.nextInt(101);
 	
-	int num3 = (randomValue);
-	int num5 = randomValue % 3;
-	int num4 = 100;
+	
 
 	int playGame = 1;
 

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 	Scanner input = new Scanner(System.in);
 
-	System.out.println("How many digits would you like to count ? ");
+	System.out.println("Welcome to counter game!!!");
 
 	int positive = 0;
 	int negative = 0;

@@ -238,6 +238,21 @@ print(f"The amount deposited at the end of 10 years is {ten_years:,.0f}")
 print(f"The amount deposited at the end of 20 years is {twenty_years:,.0f}")
 print(f"The amount depostied at the end of 30 years is {thirty_years:,.0f}")
 
+print("\n")
+
+print("Exercise #2.13")
+
+print("\n")
+
+number = int(input("Enter a number lets check the largest digits python can accept\n"))
+number1 = number ** number
+
+print(number1)
+
+print("\n")
+
+print("The largest number for integer is the limit (4300 digits)")
+
 
 
 

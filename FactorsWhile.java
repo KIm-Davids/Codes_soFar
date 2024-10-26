@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 	Scanner input = new Scanner(System.in);
 
+	int factor = 0;	
+	int counter = 1;
+
 	System.out.print("Enter a number: ");
 	int num1 = input.nextInt();
 
-	int factor = 0;	
-	int counter = 1;
 
 	while(counter<=num1) {
 
@@ -16,8 +17,7 @@ import java.util.Scanner;
 
 	factor = factor + 1;
 	}
-	counter++;	
-	}
+	counter++;	}
 	System.out.println(" " + factor);
 
 	}

@@ -1,10 +1,13 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 	public class NokiaPro {
 
 
 	public static void main(String[] args) {  
 	
 	Scanner input = new Scanner(System.in);
+
+	NokiaProMainMenu mainMenu = new NokiaProMainMenu();
+	int mainMenu = mainMenu
 		
 	String prompt = """
 	Menu
@@ -214,7 +217,10 @@ case 1 -> {
 			case 3 -> System.out.println("Add name");
 			case 4 -> System.out.println("Erase");
 			case 5 -> System.out.println("Assign tone");
+			case 10 -> mainMenu();
 			default -> System.out.print("Error");
+				   
+				    
 			
 		   
 	 case 6 -> {
@@ -224,7 +230,7 @@ case 1 -> {
 			  case 1 -> System.out.println("Type of view");
 			  case 2 -> System.out.println("Memory status");
 			  default -> System.out.print("Error");
-			  case 0 -> returnToMenu();
+			 
 			
 		      }
 		   }
@@ -233,6 +239,7 @@ case 1 -> {
 			   case 7 -> System.out.println("Send b'card");
 			   case 8 -> System.out.println("Speed dials");	
 		       	   case 9 -> System.out.println("Voice tags");
+			  
 			   default -> System.out.print("Error Retry input\n");
 		  
 case 2 -> {

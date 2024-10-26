@@ -9,7 +9,7 @@ import java.util.Scanner;
 	int num = input.nextInt();
 
 
-	for (int counter = 0; counter==num; counter++) {
+	for (int counter = 0; num==num; counter++) {
 
 	System.out.print("Enter 10 numbers: ");
 	int num1 = input.nextInt();

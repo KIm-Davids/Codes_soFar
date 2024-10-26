@@ -1,23 +1,29 @@
-import java.util.Scanner;
-	public class Palindrome {
-		public static void main(String[] args){
 
-		Scanner input = new Scanner(System.in);
+public class Palindrome {
+	public static boolean pal(int a) {
+	
+	
+	boolean answer = true;
 
-		System.out.println("Enter a three-digit integer: ");
-		int number1 = input.nextInt();
-		
-		int number2 = number1 /100 % 10;
-		int number3 = (number1 / 10) % 10;
-		int number4 = number1 % 10;
+	int b = a / 10000 % 100 % 10;
+	int c = a / 1000 % 100;
+	int d = a / 100 % 10;
+	int e = a / 10 % 10;
+	int f = a % 10;
 
-		
-		
-		if (number4 != number2) {
-			System.out.printf("%d%d%d is not a palindrome", number2, number3, number4);
-		}
-		if (number4 == number2) {
-			System.out.printf("%d%d%d is a palindrome", number2, number3, number4);
-		}
+
+	if(b == f) {
+	answer = true;
+	}
+	else {
+	answer = false;
+	
+	}
+
+	return answer; 
+
+	
 	}
 }
+	
+	

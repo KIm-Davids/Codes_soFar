@@ -1,21 +1,22 @@
 import java.util.Scanner;
 	public class Factors {
 		public static void main(String[] args) {
+	
+		Scanner input = new Scanner(System.in);
 
-	Scanner input = new Scanner(System.in);
 
-	System.out.println("Enter a number: ");
-	int num1 = input.nextInt();
+		System.out.print("Enter a number: ");
+		int num1 = input.nextInt();
 
-	int factor = 1;
-	int counter = 0;
+		int factor = 0;
+		int counter = 1;		
 
-	for(factor = 1; counter<=num1; factor++) {	
- 	if(num1 % factor == 0) {
-	System.out.print("   " + factor);
-	factor = factor + 1;
-	}
-	counter = counter + 1;
-       }
-     }
+		for(counter = 1; counter <= 10; counter++) {
+		 if(num1 % counter == 0) {
+			factor++;
+			}
+			}
+			counter++;
+			System.out.print(factor);
+		}
 }

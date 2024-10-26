@@ -4,7 +4,7 @@ import java.util.Scanner;
 	
 	Scanner input = new Scanner(System.in);
 
-	System.out.print("Enter how many times you want to play ?");
+	System.out.println("Enter how many times you want to play ?");
 	int num2 = input.nextInt();
 
 	System.out.println("Enter a number");
